@@ -58,6 +58,7 @@ def mergeSort(start, end):	# end: inclusive(포함)
 	mergeSort(start, mid)
 	mergeSort(mid + 1 , end)
 	merge(start, mid, end)
+	return
 
 
 mergeSort(0, l_arr-1)
